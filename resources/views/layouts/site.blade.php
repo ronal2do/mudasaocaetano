@@ -13,14 +13,15 @@
   </head>
   <body>
 
-    <section class="Header">    <div class="Linha"></div>
+    <section class="Header">    
+    <div class="Linha"></div>
         <div class="container ">
             <div class="col-md-8 col-md-offset-2">
                         <hr style="height:2px;border-width:0;color:white;background-color:white">
                 <div class="col-md-8">
                     <p class="Muda">MUDA <br>SÃO <br>CAETANO</p>
 
-                    <a href="/"><div class="Muda-logo waves-effect"></div></a>
+                    <a href="/"><div class="Muda-logo"></div></a>
                 </div>
 
                 <div class="col-md-4 box">
@@ -33,7 +34,7 @@
                             <div class="panel-heading Yellow sug">
                                <a href="/sugestao">
     
-                                    <h4 class="panel-title"> 
+                                    <h4 class="panel-title medium"> 
                                      <div class="enjoy-css"></div>
                                         Sugestão
                                     </h4>

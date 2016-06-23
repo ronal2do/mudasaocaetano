@@ -2,7 +2,7 @@
 @section('banner')
 <div class="container" >
     <div class="fundo">
-        <img src="./assets/images/Foto.jpg" alt="tarcisio" class="waves-image" width="100%">
+        <img src="./assets/images/Foto2.jpg" alt="tarcisio" class="waves-image" width="100%">
     </div>
 </div>
 
@@ -21,9 +21,9 @@
                 </a> 
             </div>
         </div>
-
         <div class="grupao">
             <div data-ng-app="mudaScs" class="col-md-12">
+            <br>
                     <form class="form-horizontal" role="form" action="/sugestao" method="POST" name="form">
                     <input type="hidden" name="_token" value="{{ csrf_token() }}">
                             @if (count($errors) > 0)
@@ -37,7 +37,7 @@
                             @endif
 
                         <div class="form-group">
-                            <label for="nome" class="col-sm-2 control-label">Nome:</label>
+                            <label for="nome" class="col-sm-2 control-label hidden-sm-down">Nome:</label>
                             <div class="col-sm-10">
                                 <input type="text" class="form-control" 
                                     name="nome" 
@@ -47,7 +47,7 @@
                             </div>
                         </div>
                         <div class="form-group">
-                        <label for="" class="col-sm-2 control-label">Endereço:</label>
+                        <label for="" class="col-sm-2 control-label hidden-sm-down">Endereço:</label>
                             <div class="col-sm-10"> 
                                 <input type="text" class="form-control" 
                                     name="endereco" 
@@ -57,7 +57,7 @@
                             </div>
                         </div>
                         <div class="form-group">
-                        <label for="" class="col-sm-2 control-label">E-mail:</label>
+                        <label for="" class="col-sm-2 control-label hidden-sm-down">E-mail:</label>
                             <div class="col-sm-10">
                                 <input type="email" class="form-control" 
                                     name="email" 
@@ -67,7 +67,7 @@
                             </div>
                         </div>
                         <div class="form-group">
-                        <label for="" class="col-sm-2 control-label">Telefone:</label>
+                        <label for="" class="col-sm-2 control-label hidden-sm-down">Telefone:</label>
                             <div class="col-sm-10">
                                 <input type="text" class="form-control" 
                                     name="telefone" 
@@ -78,7 +78,7 @@
                             </div>
                         </div>
                             <div class="form-group">
-                            <label for="" class="col-sm-2 control-label">Celular:</label>
+                            <label for="" class="col-sm-2 control-label hidden-sm-down">Celular:</label>
                                 <div class="col-sm-10">
                                     <input type="text" class="form-control" 
                                             name="celular" 

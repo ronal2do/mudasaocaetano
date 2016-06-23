@@ -1068,14 +1068,70 @@ body.stop-scrolling {
     -o-transform: translateY(145%);
     transform: translateY(145%); } }
 
+@font-face {
+  font-family: 'Gotham-Bold';
+  src: url('../fonts/gotham-bold/Gotham-Bold.eot');
+  src: url('../fonts/gotham-bold/Gotham-Bold.woff2') format('woff2'),
+       url('../fonts/gotham-bold/Gotham-Bold.woff') format('woff'),
+       url('../fonts/gotham-bold/Gotham-Bold.ttf') format('truetype'),
+       url('../fonts/gotham-bold/Gotham-Bold.svg#Gotham-Bold') format('svg'),
+       url('../fonts/gotham-bold/Gotham-Bold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham-Book';
+  src: url('../fonts/gotham-book/Gotham-Book.eot');
+  src: url('../fonts/gotham-book/Gotham-Book.woff2') format('woff2'),
+       url('../fonts/gotham-book/Gotham-Book.woff') format('woff'),
+       url('../fonts/gotham-book/Gotham-Book.ttf') format('truetype'),
+       url('../fonts/gotham-book/Gotham-Book.svg#Gotham-Book') format('svg'),
+       url('../fonts/gotham-book/Gotham-Book.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham-BookItalic';
+  src: url('../fonts/gotham-bookitalic/Gotham-BookItalic.eot');
+  src: url('../fonts/gotham-bookitalic/Gotham-BookItalic.woff2') format('woff2'),
+       url('../fonts/gotham-bookitalic/Gotham-BookItalic.woff') format('woff'),
+       url('../fonts/gotham-bookitalic/Gotham-BookItalic.ttf') format('truetype'),
+       url('../fonts/gotham-bookitalic/Gotham-BookItalic.svg#Gotham-BookItalic') format('svg'),
+       url('../fonts/gotham-bookitalic/Gotham-BookItalic.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham-Medium';
+  src: url('../fonts/gotham-medium/Gotham-Medium.eot');
+  src: url('../fonts/gotham-medium/Gotham-Medium.woff2') format('woff2'),
+       url('../fonts/gotham-medium/Gotham-Medium.woff') format('woff'),
+       url('../fonts/gotham-medium/Gotham-Medium.ttf') format('truetype'),
+       url('../fonts/gotham-medium/Gotham-Medium.svg#Gotham-Medium') format('svg'),
+       url('../fonts/gotham-medium/Gotham-Medium.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
 html,
 body{
+	font-family: 'Gotham-Medium';
 	background-color: #233b73;
 	color: #fff;
 }
 h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
     margin-bottom: 0;
+    font-family: 'Gotham-Bold';
+    font-weight: 800;
+}
+.medium{
+	  font-family: 'Gotham-Medium';
 }
 .Linha{
 	height: 4px;
@@ -1084,10 +1140,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 p.Strong,
 .panel-title{
+	font-family: 'Gotham-Bold';
 	color: #233b73;
 }
 .italic {
     font-style: italic;
+    font-family: 'Gotham-BookItalic';
 }
 .control-label {
     display: inline-block;
@@ -1159,6 +1217,7 @@ a:focus, a:hover {
 .btn{
 	background: #FFE96B;
     color: #233b73;
+      font-family: 'Gotham-Medium';
 }
 .btn-sugestao{
 	background: #bbbdc0;
@@ -1186,7 +1245,10 @@ a:focus, a:hover {
 	text-transform: uppercase;
 }
 .active {background-color:blue;}
-
+.form-group {
+    margin-bottom: 0rem;
+    font-family: 'Gotham-Book';
+}
 .Muda{    
 	display: none;
 }
