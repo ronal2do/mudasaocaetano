@@ -1,45 +1,119 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Laravel</title>
+@extends('layouts.site')
+@section('banner')
+<div class="container" >
+    <div class="fundo">
+        <img src="./assets/images/Foto.jpg" alt="tarcisio" class="waves-image" width="100%">
+    </div>
+</div>
 
-        <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
+@endsection
+@section('content')
 
-        <style>
-            html, body {
-                height: 100%;
-            }
+ <div class="container">
 
-            body {
-                margin: 0;
-                padding: 0;
-                width: 100%;
-                display: table;
-                font-weight: 100;
-                font-family: 'Lato';
-            }
+    <div class="panel-group col-md-8 col-md-offset-2" id="accordion">
 
-            .container {
-                text-align: center;
-                display: table-cell;
-                vertical-align: middle;
-            }
-
-            .content {
-                text-align: center;
-                display: inline-block;
-            }
-
-            .title {
-                font-size: 96px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="container">
-            <div class="content">
-                <div class="title">Laravel 5</div>
+        <div class="panel panel-default">
+            <div class="panel-heading Yellow">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse1"> 
+                    <h4 class="panel-title">
+                     <div class="enjoy-css"></div>
+                    Social
+                    </h4>
+                    <span class="Line"></span>
+                </a>
+            </div>
+            <div id="collapse1" class="panel-collapse collapse"> <!--collapse in -->
+                <div class="panel-body Body">
+                    <p class="Strong">Desenvolvimento humano e inclusão social.</p>
+                    <p class="italic">
+                        Emprestar um olhar diferente na relação com as pessoas dando um passo adiante na implementação de programas e ações de forma a possibilitar mais proximidade, mais cuidados, mais cidadania e mais oportunidades, respeitando as diversidades, as vocações e as necessidades.
+                    </p>
+              </div>
             </div>
         </div>
-    </body>
-</html>
+
+        <div class="panel panel-default">
+            <div class="panel-heading Yellow">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse2"> 
+                    <h4 class="panel-title"> 
+                     <div class="enjoy-css"></div>
+                    Gestão
+                    </h4>
+                    <span class="Line"></span>
+                </a>
+            </div>
+            <div id="collapse2" class="panel-collapse collapse">
+                <div class="panel-body Body">
+                    <p class="Strong">Desenvolvimento humano e inclusão social.</p>
+                    <p class="italic">
+                        Emprestar um olhar diferente na relação com as pessoas dando um passo adiante na implementação de programas e ações de forma a possibilitar mais proximidade, mais cuidados, mais cidadania e mais oportunidades, respeitando as diversidades, as vocações e as necessidades.
+                    </p>
+              </div>
+            </div>
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-heading Yellow">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse3"> 
+                    <h4 class="panel-title">
+                     <div class="enjoy-css"></div>
+                        Infraestrutura
+                    </h4>
+                    <span class="Line"></span>                  
+                </a>
+            </div>
+            <div id="collapse3" class="panel-collapse collapse">
+                <div class="panel-body Body">
+                    <p class="Strong">Desenvolvimento humano e inclusão social.</p>
+                    <p class="italic">
+                        Emprestar um olhar diferente na relação com as pessoas dando um passo adiante na implementação de programas e ações de forma a possibilitar mais proximidade, mais cuidados, mais cidadania e mais oportunidades, respeitando as diversidades, as vocações e as necessidades.
+                    </p>
+              </div>
+            </div>
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-heading Yellow">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse4"> 
+                    <h4 class="panel-title">
+                     <div class="enjoy-css"></div>
+                        Desenvolvimento e meio ambiente
+                    </h4>
+                    <span class="Line"></span>                  
+                </a>
+            </div>
+            <div id="collapse4" class="panel-collapse collapse">
+                <div class="panel-body Body">
+                    <p class="Strong">Desenvolvimento humano e inclusão social.</p>
+                    <p class="italic">
+                        Emprestar um olhar diferente na relação com as pessoas dando um passo adiante na implementação de programas e ações de forma a possibilitar mais proximidade, mais cuidados, mais cidadania e mais oportunidades, respeitando as diversidades, as vocações e as necessidades.
+                    </p>
+              </div>
+            </div>
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-heading Yellow">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse5"> 
+                    <h4 class="panel-title">
+                     <div class="enjoy-css"></div>
+                    Esporte, lazer e cultura
+                    </h4>
+                    <span class="Line"></span>                  
+                </a>
+            </div>
+            <div id="collapse5" class="panel-collapse collapse">
+                <div class="panel-body Body">
+                    <p class="Strong">Desenvolvimento humano e inclusão social.</p>
+                    <p class="italic">
+                        Emprestar um olhar diferente na relação com as pessoas dando um passo adiante na implementação de programas e ações de forma a possibilitar mais proximidade, mais cuidados, mais cidadania e mais oportunidades, respeitando as diversidades, as vocações e as necessidades.
+                    </p>
+              </div>
+            </div>
+        </div>
+
+    </div>
+
+</div><!-- container -->
+    @endsection
