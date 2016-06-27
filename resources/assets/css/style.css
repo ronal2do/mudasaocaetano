@@ -157,7 +157,8 @@ a:focus, a:hover {
 	border-radius: 0;
 	z-index: 0;
 }
-.btn:disabled,.btn:disabled:hover{
+.btn:disabled,
+.btn:disabled:hover{
 	background: #777777;
     color: #233b73;
 }

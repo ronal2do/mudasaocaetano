@@ -25,9 +25,10 @@
             </div>
             <div id="collapse1" class="panel-collapse collapse"> <!--collapse in -->
                 <div class="panel-body Body">
-                    <p class="Strong">Desenvolvimento humano e inclusão social.</p>
+                    <p class="Strong">São Caetano que cuida e acolhe todas as gerações.</p>
                     <p class="italic">
-                        Emprestar um olhar diferente na relação com as pessoas dando um passo adiante na implementação de programas e ações de forma a possibilitar mais proximidade, mais cuidados, mais cidadania e mais oportunidades, respeitando as diversidades, as vocações e as necessidades.
+                            Áreas: educação, saúde, terceira idade, mulheres, 
+                            diversidade, portadores e segurança
                     </p>
               </div>
             </div>
@@ -45,9 +46,9 @@
             </div>
             <div id="collapse2" class="panel-collapse collapse">
                 <div class="panel-body Body">
-                    <p class="Strong">Desenvolvimento humano e inclusão social.</p>
+                    <p class="Strong">São Caetano da eficiência, transparência e participação. </p>
                     <p class="italic">
-                        Emprestar um olhar diferente na relação com as pessoas dando um passo adiante na implementação de programas e ações de forma a possibilitar mais proximidade, mais cuidados, mais cidadania e mais oportunidades, respeitando as diversidades, as vocações e as necessidades.
+                       Área: gestão e TI.
                     </p>
               </div>
             </div>
@@ -65,9 +66,9 @@
             </div>
             <div id="collapse3" class="panel-collapse collapse">
                 <div class="panel-body Body">
-                    <p class="Strong">Desenvolvimento humano e inclusão social.</p>
+                    <p class="Strong">São Caetano que pensa o futuro e faz o que deve ser feito hoje.</p>
                     <p class="italic">
-                        Emprestar um olhar diferente na relação com as pessoas dando um passo adiante na implementação de programas e ações de forma a possibilitar mais proximidade, mais cuidados, mais cidadania e mais oportunidades, respeitando as diversidades, as vocações e as necessidades.
+                       Áreas: habitação, mobilidade, saneamento, recursos hídricos,merendarem,mudo do solo.
                     </p>
               </div>
             </div>
@@ -85,9 +86,9 @@
             </div>
             <div id="collapse4" class="panel-collapse collapse">
                 <div class="panel-body Body">
-                    <p class="Strong">Desenvolvimento humano e inclusão social.</p>
+                    <p class="Strong">São Caetano da oportunidade e que cuida do amanhã. </p>
                     <p class="italic">
-                        Emprestar um olhar diferente na relação com as pessoas dando um passo adiante na implementação de programas e ações de forma a possibilitar mais proximidade, mais cuidados, mais cidadania e mais oportunidades, respeitando as diversidades, as vocações e as necessidades.
+                        Desenvolvimento econômico, relações de trabalho e sustentabilidade e meio ambiente
                     </p>
               </div>
             </div>
@@ -105,9 +106,9 @@
             </div>
             <div id="collapse5" class="panel-collapse collapse">
                 <div class="panel-body Body">
-                    <p class="Strong">Desenvolvimento humano e inclusão social.</p>
+                    <p class="Strong">São Caetano do esporte, da arte e do lazer.</p>
                     <p class="italic">
-                        Emprestar um olhar diferente na relação com as pessoas dando um passo adiante na implementação de programas e ações de forma a possibilitar mais proximidade, mais cuidados, mais cidadania e mais oportunidades, respeitando as diversidades, as vocações e as necessidades.
+                      
                     </p>
               </div>
             </div>
