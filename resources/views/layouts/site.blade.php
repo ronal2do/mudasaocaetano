@@ -29,7 +29,7 @@
                        <div class="Passarinho"></div>
                     </div>
                     <div class="row right"> 
-                        <div class="panel panel-default" style="float: right; margin-top:45px;">
+                        <div class="panel panel-default Sug">
                            
                             <div class="panel-heading Yellow sug">
                                <a href="/sugestao">

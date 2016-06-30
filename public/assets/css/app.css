@@ -1278,12 +1278,15 @@ a:focus, a:hover {
     z-index: 1;
 }
 .Muda-logo{
-	background-image: url('../svg/logo.svg');
-	margin-top: 5px;
-	width: 312px;
+  	background-image: url('../svg/logo.svg');
+    background-size: contain;
+    margin-top: 5px;
+  	margin-top: 5px;
+  	width: 280px;
     height: 142px;
     background-repeat: no-repeat;
 }
+
 hr{
 	height:2px;color:gray;
 }
@@ -1294,12 +1297,25 @@ hr{
 .panel-heading{
 	transition: background-color 0.5s ease;
 }
-.Passarinho{	
-	background-image: url('../svg/pet.svg');
-	margin-top: 10px;
-	margin-right: 10px;
-	float: right;
-	width: 57px;
+.Sug{float: right; margin-top:5px;}
+
+.Passarinho {
+    background-image: url('../svg/pet.svg');
+    margin-top: -143px;
+    float: right;
+    width: 57px;
     height: 57px;
-    background-repeat: no-repeat;}
+    background-repeat: no-repeat;
+}
+
+
+ @media only screen and (min-width : 768px) {
+    .Passarinho{  
+          background-image: url('../svg/pet.svg');
+          margin-top: 10px;
+          margin-right: 10px;
+    }
+    .Sug{float: right; margin-top:24px;}
+}
+
 /*# sourceMappingURL=app.css.map */
