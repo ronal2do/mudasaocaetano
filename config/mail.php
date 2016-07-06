@@ -11,7 +11,7 @@ return [
 
     'from' => ['address' => 'postmaster@mudasaocaetano.com.br', 'name' => 'Muda São Caetano'],
 
-    'encryption' => env('MAIL_ENCRYPTION', ' '),
+    'encryption' => env('MAIL_ENCRYPTION', ''),
 
     'username' => env('MAIL_USERNAME'),
 
