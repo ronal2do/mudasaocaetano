@@ -30,20 +30,20 @@ class MessageController extends Controller
 
 	    Alert::success('Sua sugestão foi enviada!')->autoclose(4000);
 
-	    // Mail::send('email.email', [
-     //     		'nome' => $nome, 
-     //     		'email' => $email, 
-     //        	'endereco' => $endereco, 
-     //        	'telefone' => $telefone, 
-     //        	'celular' => $celular, 
-     //        	'whatsapp' => $whatsapp, 
-     //        	'sugestao' => $sugestao
-     //     	], function ($m) use ($nome, $email, $endereco, $telefone, $celular, $whatsapp, $sugestao) {
+	    Mail::send('mail.mail', [
+         		'nome' => $nome, 
+         		'email' => $email, 
+            	'endereco' => $endereco, 
+            	'telefone' => $telefone, 
+            	'celular' => $celular, 
+            	'whatsapp' => $whatsapp, 
+            	'sugestao' => $sugestao
+         	], function ($m) use ($nome, $email, $endereco, $telefone, $celular, $whatsapp, $sugestao) {
             
-     //        $m->to('tarcisio.secoli13@gmail.com')
-     //       	  ->cc('tarcisio@tarcisiosbc.com.br','Vc faz SBC')
-     //          ->subject("Vc faz SBC - Nova sugestão");
-     //    });
+            $m->to('ronal2do@gmail.com')
+            // $m->to('carlosserrao23@gmail.com')
+              ->subject("Muda São Caetano - Nova sugestão");
+        });
 
 	    return redirect()->intended('/');
 	}	
