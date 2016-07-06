@@ -55,7 +55,7 @@ return [
     |
     */
 
-    'from' => ['address' => null, 'name' => null],
+    'from' => ['address' => 'postmaster@mudasaocaetano.com.br', 'name' => 'Muda São Caetano'],
 
     /*
     |--------------------------------------------------------------------------
