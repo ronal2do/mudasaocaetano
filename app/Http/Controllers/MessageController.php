@@ -40,12 +40,11 @@ class MessageController extends Controller
             	'sugestao' => $sugestao
          	], function ($m) use ($nome, $email, $endereco, $telefone, $celular, $whatsapp, $sugestao) {
             
-            $m->to('ronal2do@gmail.com')
-              ->cc('ronaldo.lima@sotaquepropaganda.com.br', 'Muda São Caetano')
+            $m->to($email)
+              ->cc('carlosserrao23@gmail.com', 'Muda São Caetano')
               ->subject("Muda São Caetano - Nova sugestão");
         });
 
 	    return redirect()->intended('/');
 	}	
 }
- // $m->to('carlosserrao23@gmail.com')
