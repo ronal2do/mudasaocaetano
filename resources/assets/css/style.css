@@ -111,8 +111,9 @@ p.Strong,
 .Body{
 	background-color: #fec232;    
 	width: calc(100% - 30px);
-    padding: 8px;
-    margin:10px 0;
+  padding: 8px;
+  margin:10px 0;
+  color: #233b73;
 }
 .panel-heading{padding-left:30px;}
 .panel-body{margin-left:30px;}
@@ -246,4 +247,9 @@ hr{
           margin-right: 10px;
     }
     .Sug{float: right; margin-top:24px;}
+}
+a,
+a:hover {
+    color: #233b73;
+    text-decoration: none;
 }
