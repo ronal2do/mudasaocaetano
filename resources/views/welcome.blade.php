@@ -33,7 +33,10 @@
                            Compõem esse eixo as áreas da Educação, Saúde, terceira idade, mulheres, diversidade, portadores de necessidades especiais e Segurança.
 
                     </p>
+
+                    @include('includes.sujestao')
               </div>
+
             </div>
         </div>
 
@@ -57,6 +60,7 @@
                        Este é o compromisso que assumimos com São Caetano, expresso nesse eixo de nosso programa de governo, que trata das áreas de gestão e TI.
 
                     </p>
+                    @include('includes.sujestao')
               </div>
             </div>
         </div>
@@ -80,6 +84,7 @@
                     <p class="italic">  
                        Habitação, mobilidade urbana, saneamento básico, recursos hídricos e uso do solo são áreas contempladas nesse eixo.
                     </p>
+                    @include('includes.sujestao')
               </div>
             </div>
         </div>
@@ -103,8 +108,8 @@
                     <p class="italic">    
                         E tudo isso em harmonia com o meio ambiente, passos firmes em direção a uma cidade mais arborizada, limpa e cuidada.
                         Participam desse conjunto de ações as áreas do desenvolvimento econômico, relações de trabalho, sustentabilidade e meio ambiente.
-
                     </p>
+                    @include('includes.sujestao')
               </div>
             </div>
         </div>
@@ -127,8 +132,8 @@
                     </p>   
                     <p class="italic">  
                       As áreas do esporte, da cultura e do lazer fazem parte desse eixo programático.
-
                     </p>
+                    @include('includes.sujestao')
               </div>
             </div>
         </div>

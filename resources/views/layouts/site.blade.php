@@ -29,18 +29,7 @@
                        <div class="Passarinho"></div>
                     </div>
                     <div class="row right"> 
-                        <div class="panel panel-default Sug">
-                           
-                            <div class="panel-heading Yellow sug">
-                               <a href="/sugestao">
-    
-                                    <h4 class="panel-title medium"> 
-                                     <div class="enjoy-css"></div>
-                                        Sugestão
-                                    </h4>
-                                    </a>
-                            </div>
-                        </div>
+                       @include('includes.sujestao')
 
                     </div>
                    
