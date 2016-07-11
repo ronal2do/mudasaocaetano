@@ -9,10 +9,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./assets/css/app.css" />
-
   </head>
   <body>
-
     <section class="Header">    
     <div class="Linha"></div>
         <div class="container ">
@@ -20,31 +18,24 @@
                         <hr style="height:2px;border-width:0;color:white;background-color:white">
                 <div class="col-md-8">
                     <p class="Muda">MUDA <br>SÃO <br>CAETANO</p>
-
                     <a href="/"><div class="Muda-logo"></div></a>
                 </div>
-
                 <div class="col-md-4 box">
                     <div class="row bet_time">
                        <div class="Passarinho"></div>
                     </div>
                     <div class="row right"> 
                        @include('includes.sujestao')
-
                     </div>
-                   
                 </div>
             </div> 
-
             <div class="col-md-8 col-md-offset-2">
             <hr style="height:2px;border-width:0;color:white;background-color:white">
                 <p class="Frase text-center">
                     ciclo de debates para a elaboração do programa de governo do psdb
                 </p>
             </div>
-
         </div> 
-    
     </section>
     @yield('banner')
     @yield('content')

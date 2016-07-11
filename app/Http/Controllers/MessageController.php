@@ -48,3 +48,7 @@ class MessageController extends Controller
 	    return redirect()->intended('/');
 	}	
 }
+
+
+
+

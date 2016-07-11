@@ -30,7 +30,7 @@
                            Um governo só se justifica se for para cuidar das pessoas. Esse cuidado deve ser reflexo das políticas públicas levadas a cabo pela prefeitura. E aqui não há espaço para opções. Todos, absolutamente todos devem receber a mesma atenção. Por isso dizemos que nosso governo vai acolher e cuidar de todas as gerações, articulando as políticas das áreas sociais em um trabalho multidisciplinar e de interdisciplinaridade, com foco absoluto na humanização dos serviços prestados à população.
                     </p>   
                     <p class="italic">          
-                           Compõem esse eixo as áreas da Educação, Saúde, terceira idade, mulheres, diversidade, portadores de necessidades especiais e Segurança.
+                           Compõem esse eixo as áreas da Educação, Saúde, Terceira idade, Mulheres, Diversidade, Pessoas com deficiência e Segurança.
 
                     </p>
 
